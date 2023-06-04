@@ -28,3 +28,5 @@ Route::get('/', [SiteController::class, 'getHome']);
 // ::class , 'getHOme' vaneko sitecontroller vitra ko funcion ho
 Route::get('/about', [SiteController::class, 'getAbout'])->name('getAboutKoRoute');
 Route::get('/contact', [SiteController::class, 'contact'])->name('contact');
+
+
